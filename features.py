@@ -37,6 +37,6 @@ def process_audio_files(audio_directory, output_directory, num_samples=6000):
         pd.DataFrame(mfcc).to_csv(mfcc_file, header=False, index=False)
 
 if __name__ == "__main__":
-    audio_directory = r"C:\Users\Serilda\Desktop\Final Year Project\Dataset6000"  # Replace with your audio directory
-    output_directory = r"C:\Users\Serilda\Desktop\VPD\feature_extracted"  # Replace with your output directory
+    audio_directory = r"C:\Users\Serilda\Desktop\Final Year Project\Match6000"  # Replace with your audio directory
+    output_directory = r"C:\Users\Serilda\Desktop\VPD\features_extracted"  # Replace with your output directory
     process_audio_files(audio_directory, output_directory, num_samples=6000)
